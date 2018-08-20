@@ -6,61 +6,211 @@
     <title>Alexandro T. Meña</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
+    <!-- Font link -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+    <!-- Bootstrap link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!-- CSS link -->
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-      <!-- <script src="script.js"></script> -->
+    
+    <!-- Javascript link -->
+    <!-- <script src="main.js"></script> -->
 </head>
 <body>
-    <!-- Welcome Banner -->
-    <div class="jumbotron-fluid">
-        <div class="welcome-bg"></div>
-        <div class="welcome-bg-2"></div>
-        <div class="about-bg"></div>
-        <div class="about-bg-2"></div>
-        <div class="container Welcome">
-            <div class="row welcome-banner-row align-items-center">
+    
+<!-- WELCOME SECTION -->
+<div id="home" class="container-fluid">
+    <div class="container">
+        <div class="row text-center align-items-center">
+            <div class="col-12">
+                <div class="welcome-message">
 
-                <div id="left" class="col-6">
-                    <h1>Hi! I'm <span class="emp">Alexandro Meña</span></h1>
-                    <lead>Welcome to my Portfolio website </lead>
-                </div>
-                
-                <div id="right" class="col-6">
-                    <ul>
-                        <li><a></a>About Me</a></li>
-                        <li><a></a>My Works</a></li>
-                        <li><a></a>Contact Me</a></li>
-                    </ul>    
+                    <h2>Hi! I'm <span class="namehighlight">Alexandro Meña</span>.</h2>
+                    <h2>I'm a front-end web developer.</h2>
+                    <hr class="hrWelcome">
+                    <a class="btn" href="#about">Know more about me</a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- About section -->
-    <section>
-        <div id="about" class="container-fluid">
-                <div class="about-bg"></div>
-                <div class="about-bg-2"></div>
-                <div class="container">
-                    <div class="row about-section welcome-banner-row">
-                        <div class="col-12">
-                            <div class="info text-center">
-                                <img class="img-fluid profile-picture float-left" src="image/Picture Container.png">
-                                    <h2 class="profilename">Alexandro T. Meña</h2>
-                                    <lead>Hi! I'm a front-end web developer.</lead>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <p>I specializes in developing responsive websites from scratch.</p>
-                        </div>
-                    </div>
-                </div>
+</div>
+
+<!-- NAVBAR SECTION -->
+
+<nav id="navbar" class="navbar navbar-expand-md sticky-top container-fluid navbar-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav mr-auto container">
+            <li class="nav-item active"><a href="#home" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- ABOUT SECTION -->
+
+<div id="about">
+
+    <div class="about-page">
+
+        <div class="title">
+            <div class="title-highlight"></div>
+            <h2 class="title-container">About</h2>
         </div>
-    </section>
-        
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    </body>
-    </html>
+
+        <div class="container">
+            <div class="row info-card-container">
+                <div class="col-md-3 text-center info-card">
+                    <img src="images/scratch.png" class="img-fluid" alt="from-scratch-logo">
+                    <h4>From Scratch</h4>
+                    <p>
+                        I create and develop webpages from scratch. I design webpages that can communicate your personality with the client and give your website identity.
+                    </p>
+                </div>
+                <div class="col-md-3 text-center info-card">
+                    <img src="images/responsive.png" class="img-fluid" alt="from-scratch-logo">
+                    <h4>Responsive</h4>
+                    <p>
+                        I make webpages more comfortable to look at in different screen sizes. This can give your clients smooth experience in your website.
+                    </p>
+                </div>
+                <div class="col-md-3 text-center info-card">
+                    <img src="images/interactive.png" class="img-fluid" alt="from-scratch-logo">
+                    <h4>interactive</h4>
+                    <p>
+                        I ensure webpages to be used lively by the clients without sacrificing its effectiveness. Interactive webpages tend to create a more user-friendly environment.
+                    </p>
+                </div>
+                <div class="col-md-3 text-center info-card">
+                    <img src="images/elegant.png" class="img-fluid" alt="from-scratch-logo">
+                    <h4>elegant</h4>
+                    <p>
+                        I see to it that my works create and give professional impression making your website elegant and exceptional.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="about-page">
+        <div class="container">
+
+            <div id="skills" class="row">
+                <div class="col-md-6">
+                    
+                </div>
+                <div class="col-md-6 dev-lang">
+                    <h2>Skills</h2>
+                    <hr class="hrSkills">
+                    <h6>I use different languages and dev tools.</h6>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS 3</li>
+                        <li>Bootstrap 4</li>
+                        <li>Javascript</li>
+                        <li>Php</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- PORTFOLIO SECTION -->
+
+<div id="portfolio">
+    <div class="container-fluid">
+        <div class="container">
+            <h2 class="text-center">Portfolio</h2>
+            <hr class="hrPortfolio">
+            
+            
+            <ul class="text-center">
+                <li class="active"><a>All</a></li>
+                <li><a>PSD to HTML</a></li>
+                <li><a>JS Games</a></li>
+                <li><a>WordPress Themes</a></li>
+            </ul>
+
+            <div class="row">
+                <div class="col-md-4 text-center portfolioEntry">
+                    <img src="images/sample-4.jpg" class="img-fluid" alt="">
+                    <h4 class="">PortfolioName</h4>
+                </div>
+                <div class="col-md-4 text-center portfolioEntry">
+                    <img src="images/sample-4.jpg" class="img-fluid" alt="">
+                    <h4 class="">PortfolioName</h4>
+                </div>
+                <div class="col-md-4 text-center portfolioEntry">
+                    <img src="images/sample-4.jpg" class="img-fluid" alt="">
+                    <h4 class="">PortfolioName</h4>
+                </div>
+                <div class="col-md-4 text-center portfolioEntry">
+                    <img src="images/sample-4.jpg" class="img-fluid" alt="">
+                    <h4 class="">PortfolioName</h4>
+                </div>
+                <div class="col-md-4 text-center portfolioEntry">
+                    <img src="images/sample-4.jpg" class="img-fluid" alt="">
+                    <h4 class="">PortfolioName</h4>
+                </div>
+                <div class="col-md-4 text-center portfolioEntry">
+                    <img src="images/sample-4.jpg" class="img-fluid" alt="">
+                    <h4 class="">PortfolioName</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CONTACT SECTION -->
+
+<div id="contact">
+
+    <div class="title">
+        <div class="title-highlight-2"></div>
+        <h2 class="title-container">Container</h2>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container">
+            <p>
+                Contact number: <br>
+                (+63)933-569-8495 <br>
+                <br>
+                Email Address: <br>
+                alexandro.mena0108@gmail.com <br>
+                <br>
+                Facebook: <br>
+                https://www.fb.me/atmena0108 <br>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- FOOTER SECTION -->
+
+<div id="footer">
+    <!-- <img src="images/footer.svg" alt=""> -->
+    <div class="footer-bg"></div>
+    <div class="endnotes container">
+        <p>
+            All rights reserved 2018 &copy;.<br>
+            Design by Alexandro Meña.
+        </p>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
