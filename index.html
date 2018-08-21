@@ -16,7 +16,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     
     <!-- Javascript link -->
-    <!-- <script src="main.js"></script> -->
+
 </head>
 <body>
     
@@ -134,19 +134,19 @@
             
             
             <ul class="text-center">
-                <li class="active"><a>All</a></li>
-                <li><a>PSD to HTML</a></li>
-                <li><a>JS Games</a></li>
-                <li><a>WordPress Themes</a></li>
+                <li class="categoryList active"><a onclick="show(1)">All</a></li>
+                <li class="categoryList"><a onclick="show(2)">PSD to HTML</a></li>
+                <li class="categoryList"><a onclick="show(3)">JS Games</a></li>
+                <li class="categoryList"><a onclick="show(4)">WordPress Themes</a></li>
             </ul>
 
             <div class="row">
                 
-                <div class="col-md-4 text-center portfolioEntry">
+                <div class="col-md-4 text-center portfolioEntry psd-to-html all">
                     <div class="entry-card">
                         <div class="portfolio-img-container">
                 
-                            <div class="portfolio-entry-cover">
+                            <div class="portfolio-entry-cover ">
                                 <div class="view-info-cover">
 
                                     <!-- <button class="view-info-button" type="button">View Info</button> -->
@@ -162,11 +162,11 @@
                     </div>
                 </div>
                 
-                <div class="col-md-4 text-center portfolioEntry">
+                <div class="col-md-4 text-center portfolioEntry psd-to-html all">
                     <div class="entry-card">
                         <div class="portfolio-img-container">
                 
-                            <div class="portfolio-entry-cover">
+                            <div class="portfolio-entry-cover l">
                                 <div class="view-info-cover">
                                     <!-- <button class="view-info-button" type="button">View Info</button> -->
                                 </div>
@@ -181,7 +181,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-4 text-center portfolioEntry">
+                <div class="col-md-4 text-center portfolioEntry psd-to-html wordpress all">
                     <div class="entry-card">
                         <div class="portfolio-img-container">
                 
@@ -200,7 +200,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-4 text-center portfolioEntry">
+                <div class="col-md-4 text-center portfolioEntry js-games all">
                     <div class="entry-card">
                         <div class="portfolio-img-container">
                 
@@ -302,6 +302,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="main.js"></script>
 
 </body>
 </html>
