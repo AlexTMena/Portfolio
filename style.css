@@ -82,10 +82,10 @@ nav ul li a:hover{
     background: white;
 }
 
-
+/* 
 .about-page {
     min-height: 100vh;
-}
+} */
 .title {
     position: relative;
     height: 100px;
@@ -187,9 +187,9 @@ nav ul li a:hover{
 
 /* CONTACT SECTION */
 
-#contact {
+/* #contact {
     min-height: 100vh;
-}
+} */
 
 .title-highlight-2 {
     width: 75%;
