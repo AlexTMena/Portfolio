@@ -193,18 +193,29 @@ nav ul li a:hover{
     margin: 0;
 }
 
-.portfolioEntry h6:hover {
+.portfolioEntry p a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0px 0 5px;
+    margin: 0;
+}
+
+.portfolioEntry h6:hover,
+.portfolioEntry p:hover {
     color: #1e2019;
     background: #e2c044;
     
 }
 
-.portfolioEntry h6 a:hover {
+.portfolioEntry h6 a:hover,
+.portfolioEntry p a:hover {
     color: #1e2019;
     background: #e2c044;
 }
 
-.portfolioEntry h6 {
+.portfolioEntry h6,
+.portfolioEntry p {
     padding: 0;
 }
 
